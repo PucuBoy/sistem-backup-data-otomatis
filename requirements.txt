@@ -1,0 +1,4 @@
+mysql-connector-python==8.0.28
+python-dotenv==0.19.2
+schedule==1.1.0
+cryptography==36.0.1

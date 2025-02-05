@@ -1,0 +1,247 @@
+2025-02-05 16:36:51,981 - INFO - === Backup System Started ===
+2025-02-05 16:36:51,981 - INFO - === Backup System Started ===
+2025-02-05 16:36:51,981 - INFO - === Backup System Started ===
+2025-02-05 16:36:51,981 - INFO - Backup interval set to: 24h
+2025-02-05 16:36:51,981 - INFO - Backup interval set to: 24h
+2025-02-05 16:36:51,981 - INFO - Backup interval set to: 24h
+2025-02-05 16:36:51,982 - INFO - Backup directory: backups/
+2025-02-05 16:36:51,982 - INFO - Backup directory: backups/
+2025-02-05 16:36:51,982 - INFO - Backup directory: backups/
+2025-02-05 16:36:51,982 - INFO - Retention period: 7 days
+2025-02-05 16:36:51,982 - INFO - Retention period: 7 days
+2025-02-05 16:36:51,982 - INFO - Retention period: 7 days
+2025-02-05 16:36:51,983 - INFO - Running initial backup...
+2025-02-05 16:36:51,983 - INFO - Running initial backup...
+2025-02-05 16:36:51,983 - INFO - Running initial backup...
+2025-02-05 16:36:52,016 - ERROR - Backup failed: Command 'mysqldump -h localhost -u root -p example_db > backups//backup_20250205_163651.sql' returned non-zero exit status 1.
+2025-02-05 16:36:52,016 - ERROR - Backup failed: Command 'mysqldump -h localhost -u root -p example_db > backups//backup_20250205_163651.sql' returned non-zero exit status 1.
+2025-02-05 16:36:52,016 - ERROR - Backup failed: Command 'mysqldump -h localhost -u root -p example_db > backups//backup_20250205_163651.sql' returned non-zero exit status 1.
+2025-02-05 16:36:52,050 - ERROR - Database connection failed: 1049 (42000): Unknown database 'example_db'
+2025-02-05 16:36:52,050 - ERROR - Database connection failed: 1049 (42000): Unknown database 'example_db'
+2025-02-05 16:36:52,050 - ERROR - Database connection failed: 1049 (42000): Unknown database 'example_db'
+2025-02-05 16:36:52,051 - INFO - Scheduled next backup in 24 hours
+2025-02-05 16:36:52,051 - INFO - Scheduled next backup in 24 hours
+2025-02-05 16:36:52,051 - INFO - Scheduled next backup in 24 hours
+2025-02-05 16:36:52,051 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 16:36:52,051 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 16:36:52,051 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 16:36:52,053 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 16:36:52,053 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 16:36:52,053 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 16:41:46,238 - INFO - === Backup System Stopped ===
+2025-02-05 16:41:46,238 - INFO - === Backup System Stopped ===
+2025-02-05 16:41:46,238 - INFO - === Backup System Stopped ===
+2025-02-05 16:41:57,162 - INFO - === Backup System Started ===
+2025-02-05 16:41:57,162 - INFO - === Backup System Started ===
+2025-02-05 16:41:57,162 - INFO - === Backup System Started ===
+2025-02-05 16:41:57,163 - INFO - Backup interval set to: 24h
+2025-02-05 16:41:57,163 - INFO - Backup interval set to: 24h
+2025-02-05 16:41:57,163 - INFO - Backup interval set to: 24h
+2025-02-05 16:41:57,164 - INFO - Backup directory: backups/
+2025-02-05 16:41:57,164 - INFO - Backup directory: backups/
+2025-02-05 16:41:57,164 - INFO - Backup directory: backups/
+2025-02-05 16:41:57,174 - INFO - Retention period: 7 days
+2025-02-05 16:41:57,174 - INFO - Retention period: 7 days
+2025-02-05 16:41:57,174 - INFO - Retention period: 7 days
+2025-02-05 16:41:57,175 - INFO - Running initial backup...
+2025-02-05 16:41:57,175 - INFO - Running initial backup...
+2025-02-05 16:41:57,175 - INFO - Running initial backup...
+2025-02-05 16:41:57,210 - ERROR - Backup failed: Command 'mysqldump -h localhost -u root -p example_db > backups//backup_20250205_164157.sql' returned non-zero exit status 1.
+2025-02-05 16:41:57,210 - ERROR - Backup failed: Command 'mysqldump -h localhost -u root -p example_db > backups//backup_20250205_164157.sql' returned non-zero exit status 1.
+2025-02-05 16:41:57,210 - ERROR - Backup failed: Command 'mysqldump -h localhost -u root -p example_db > backups//backup_20250205_164157.sql' returned non-zero exit status 1.
+2025-02-05 16:41:57,247 - INFO - Database connection established
+2025-02-05 16:41:57,247 - INFO - Database connection established
+2025-02-05 16:41:57,247 - INFO - Database connection established
+2025-02-05 16:41:57,249 - ERROR - Failed to log backup: 1146 (42S02): Table 'example_db.backup_logs' doesn't exist
+2025-02-05 16:41:57,249 - ERROR - Failed to log backup: 1146 (42S02): Table 'example_db.backup_logs' doesn't exist
+2025-02-05 16:41:57,249 - ERROR - Failed to log backup: 1146 (42S02): Table 'example_db.backup_logs' doesn't exist
+2025-02-05 16:41:57,250 - INFO - Database connection closed
+2025-02-05 16:41:57,250 - INFO - Database connection closed
+2025-02-05 16:41:57,250 - INFO - Database connection closed
+2025-02-05 16:41:57,251 - INFO - Scheduled next backup in 24 hours
+2025-02-05 16:41:57,251 - INFO - Scheduled next backup in 24 hours
+2025-02-05 16:41:57,251 - INFO - Scheduled next backup in 24 hours
+2025-02-05 16:41:57,252 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 16:41:57,252 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 16:41:57,252 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 16:41:57,252 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 16:41:57,252 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 16:41:57,252 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 16:46:39,494 - INFO - === Backup System Stopped ===
+2025-02-05 16:46:39,494 - INFO - === Backup System Stopped ===
+2025-02-05 16:46:39,494 - INFO - === Backup System Stopped ===
+2025-02-05 16:46:50,063 - INFO - === Backup System Started ===
+2025-02-05 16:46:50,063 - INFO - === Backup System Started ===
+2025-02-05 16:46:50,063 - INFO - === Backup System Started ===
+2025-02-05 16:46:50,065 - INFO - Backup interval set to: 24h
+2025-02-05 16:46:50,065 - INFO - Backup interval set to: 24h
+2025-02-05 16:46:50,065 - INFO - Backup interval set to: 24h
+2025-02-05 16:46:50,066 - INFO - Backup directory: backups/
+2025-02-05 16:46:50,066 - INFO - Backup directory: backups/
+2025-02-05 16:46:50,066 - INFO - Backup directory: backups/
+2025-02-05 16:46:50,067 - INFO - Retention period: 7 days
+2025-02-05 16:46:50,067 - INFO - Retention period: 7 days
+2025-02-05 16:46:50,067 - INFO - Retention period: 7 days
+2025-02-05 16:46:50,068 - INFO - Running initial backup...
+2025-02-05 16:46:50,068 - INFO - Running initial backup...
+2025-02-05 16:46:50,068 - INFO - Running initial backup...
+2025-02-05 16:46:50,114 - ERROR - Backup failed: Command 'mysqldump -h localhost -u root -p example_db > backups//backup_20250205_164650.sql' returned non-zero exit status 1.
+2025-02-05 16:46:50,114 - ERROR - Backup failed: Command 'mysqldump -h localhost -u root -p example_db > backups//backup_20250205_164650.sql' returned non-zero exit status 1.
+2025-02-05 16:46:50,114 - ERROR - Backup failed: Command 'mysqldump -h localhost -u root -p example_db > backups//backup_20250205_164650.sql' returned non-zero exit status 1.
+2025-02-05 16:46:50,148 - INFO - Database connection established
+2025-02-05 16:46:50,148 - INFO - Database connection established
+2025-02-05 16:46:50,148 - INFO - Database connection established
+2025-02-05 16:46:50,150 - ERROR - Failed to log backup: 1146 (42S02): Table 'example_db.backup_logs' doesn't exist
+2025-02-05 16:46:50,150 - ERROR - Failed to log backup: 1146 (42S02): Table 'example_db.backup_logs' doesn't exist
+2025-02-05 16:46:50,150 - ERROR - Failed to log backup: 1146 (42S02): Table 'example_db.backup_logs' doesn't exist
+2025-02-05 16:46:50,151 - INFO - Database connection closed
+2025-02-05 16:46:50,151 - INFO - Database connection closed
+2025-02-05 16:46:50,151 - INFO - Database connection closed
+2025-02-05 16:46:50,152 - INFO - Scheduled next backup in 24 hours
+2025-02-05 16:46:50,152 - INFO - Scheduled next backup in 24 hours
+2025-02-05 16:46:50,152 - INFO - Scheduled next backup in 24 hours
+2025-02-05 16:46:50,153 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 16:46:50,153 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 16:46:50,153 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 16:46:50,153 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 16:46:50,153 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 16:46:50,153 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 16:48:53,299 - INFO - === Backup System Stopped ===
+2025-02-05 16:48:53,299 - INFO - === Backup System Stopped ===
+2025-02-05 16:48:53,299 - INFO - === Backup System Stopped ===
+2025-02-05 16:54:36,202 - INFO - === Backup System Started ===
+2025-02-05 16:54:36,202 - INFO - === Backup System Started ===
+2025-02-05 16:54:36,202 - INFO - === Backup System Started ===
+2025-02-05 16:54:36,203 - INFO - Backup interval set to: 24h
+2025-02-05 16:54:36,203 - INFO - Backup interval set to: 24h
+2025-02-05 16:54:36,203 - INFO - Backup interval set to: 24h
+2025-02-05 16:54:36,205 - INFO - Backup directory: backups/
+2025-02-05 16:54:36,205 - INFO - Backup directory: backups/
+2025-02-05 16:54:36,205 - INFO - Backup directory: backups/
+2025-02-05 16:54:36,206 - INFO - Retention period: 7 days
+2025-02-05 16:54:36,206 - INFO - Retention period: 7 days
+2025-02-05 16:54:36,206 - INFO - Retention period: 7 days
+2025-02-05 16:54:36,207 - INFO - Running initial backup...
+2025-02-05 16:54:36,207 - INFO - Running initial backup...
+2025-02-05 16:54:36,207 - INFO - Running initial backup...
+2025-02-05 16:54:36,242 - ERROR - Backup failed: Command 'mysqldump -h localhost -u root -p example_db > backups//backup_20250205_165436.sql' returned non-zero exit status 1.
+2025-02-05 16:54:36,242 - ERROR - Backup failed: Command 'mysqldump -h localhost -u root -p example_db > backups//backup_20250205_165436.sql' returned non-zero exit status 1.
+2025-02-05 16:54:36,242 - ERROR - Backup failed: Command 'mysqldump -h localhost -u root -p example_db > backups//backup_20250205_165436.sql' returned non-zero exit status 1.
+2025-02-05 16:54:36,270 - INFO - Database connection established
+2025-02-05 16:54:36,270 - INFO - Database connection established
+2025-02-05 16:54:36,270 - INFO - Database connection established
+2025-02-05 16:59:25,753 - INFO - === Backup System Started ===
+2025-02-05 16:59:25,753 - INFO - Backup interval set to: 24h
+2025-02-05 16:59:25,753 - INFO - Backup directory: backups/
+2025-02-05 16:59:25,753 - INFO - Retention period: 7 days
+2025-02-05 16:59:25,753 - INFO - Running initial backup...
+2025-02-05 16:59:25,753 - INFO - Running backup command: ****"****C****:****\****x****a****m****p****p****\****m****y****s****q****l****\****b****i****n****\****m****y****s****q****l****d****u****m****p****.****e****x****e****"**** ****-****h**** ****l****o****c****a****l****h****o****s****t**** ****-****u**** ****r****o****o****t**** ****-****p**** ****e****x****a****m****p****l****e****_****d****b**** ****>**** ****"****b****a****c****k****u****p****s****/****/****b****a****c****k****u****p****_****2****0****2****5****0****2****0****5****_****1****6****5****9****2****5****.****s****q****l****"****
+2025-02-05 16:59:52,767 - ERROR - Backup failed: Command '"C:\xampp\mysql\bin\mysqldump.exe" -h localhost -u root -p example_db > "backups//backup_20250205_165925.sql"' returned non-zero exit status 2.
+2025-02-05 16:59:52,802 - INFO - Database connection established
+2025-02-05 17:17:58,567 - INFO - === Backup System Started ===
+2025-02-05 17:17:58,567 - INFO - Backup interval set to: 24h
+2025-02-05 17:17:58,568 - INFO - Backup directory: backups/
+2025-02-05 17:17:58,568 - INFO - Retention period: 7 days
+2025-02-05 17:17:58,568 - INFO - Running initial backup...
+2025-02-05 17:17:58,568 - INFO - Starting backup process...
+2025-02-05 17:17:58,697 - ERROR - Backup failed: Command '"C:\xampp\mysql\bin\mysqldump.exe" --defaults-file="temp_mysql.cnf" example_db > "backups//backup_20250205_171758.sql"' returned non-zero exit status 2.
+2025-02-05 17:17:58,731 - INFO - Database connection established
+2025-02-05 17:17:58,732 - ERROR - Failed to log backup: 1932 (42S02): Table 'example_db.backup_logs' doesn't exist in engine
+2025-02-05 17:17:58,732 - INFO - Database connection closed
+2025-02-05 17:17:58,733 - INFO - Scheduled next backup in 24 hours
+2025-02-05 17:23:34,075 - INFO - === Backup System Started ===
+2025-02-05 17:23:34,075 - INFO - Backup interval set to: 24h
+2025-02-05 17:23:34,076 - INFO - Backup directory: backups/
+2025-02-05 17:23:34,076 - INFO - Retention period: 7 days
+2025-02-05 17:23:34,076 - INFO - Running initial backup...
+2025-02-05 17:23:34,076 - INFO - Starting backup process...
+2025-02-05 17:23:34,244 - ERROR - Backup failed: Command '"C:\xampp\mysql\bin\mysqldump.exe" --defaults-file="temp_mysql.cnf" example_db > "backups//backup_20250205_172334.sql"' returned non-zero exit status 2.
+2025-02-05 17:23:34,273 - INFO - Database connection established
+2025-02-05 17:23:34,273 - ERROR - Failed to log backup: 1932 (42S02): Table 'example_db.backup_logs' doesn't exist in engine
+2025-02-05 17:23:34,273 - INFO - Database connection closed
+2025-02-05 17:23:34,273 - INFO - Scheduled next backup in 24 hours
+2025-02-05 17:23:34,274 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 17:23:34,274 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 17:25:01,600 - INFO - === Backup System Started ===
+2025-02-05 17:25:01,600 - INFO - Backup interval set to: 24h
+2025-02-05 17:25:01,600 - INFO - Backup directory: backups/
+2025-02-05 17:25:01,601 - INFO - Retention period: 7 days
+2025-02-05 17:25:01,601 - INFO - Running initial backup...
+2025-02-05 17:25:01,601 - INFO - Starting backup process...
+2025-02-05 17:25:01,731 - ERROR - Backup failed: Command '"C:\xampp\mysql\bin\mysqldump.exe" --defaults-file="temp_mysql.cnf" example_db > "backups//backup_20250205_172501.sql"' returned non-zero exit status 2.
+2025-02-05 17:25:01,755 - INFO - Database connection established
+2025-02-05 17:25:01,755 - ERROR - Failed to log backup: 1932 (42S02): Table 'example_db.backup_logs' doesn't exist in engine
+2025-02-05 17:25:01,755 - INFO - Database connection closed
+2025-02-05 17:25:01,756 - INFO - Scheduled next backup in 24 hours
+2025-02-05 17:25:01,756 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 17:25:01,756 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 17:27:42,315 - INFO - === Backup System Stopped ===
+2025-02-05 17:31:56,811 - INFO - === Backup System Started ===
+2025-02-05 17:31:56,811 - INFO - Backup interval set to: 24h
+2025-02-05 17:31:56,811 - INFO - Backup directory: backups/
+2025-02-05 17:31:56,811 - INFO - Retention period: 7 days
+2025-02-05 17:31:56,811 - INFO - Running initial backup...
+2025-02-05 17:31:56,812 - INFO - Starting backup process...
+2025-02-05 17:31:56,947 - ERROR - Backup failed: Command '"C:\xampp\mysql\bin\mysqldump.exe" --defaults-file="temp_mysql.cnf" example_db > "backups//backup_20250205_173156.sql"' returned non-zero exit status 2.
+2025-02-05 17:31:56,987 - INFO - Database connection established
+2025-02-05 17:31:56,988 - ERROR - Failed to log backup: 1932 (42S02): Table 'example_db.backup_logs' doesn't exist in engine
+2025-02-05 17:31:56,988 - INFO - Database connection closed
+2025-02-05 17:31:56,989 - INFO - Scheduled next backup in 24 hours
+2025-02-05 17:31:56,989 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 17:31:56,989 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 17:40:52,065 - INFO - === Backup System Stopped ===
+2025-02-05 17:41:08,173 - INFO - === Backup System Started ===
+2025-02-05 17:41:08,174 - INFO - Backup interval set to: 24h
+2025-02-05 17:41:08,174 - INFO - Backup directory: backups/
+2025-02-05 17:41:08,174 - INFO - Retention period: 7 days
+2025-02-05 17:41:08,174 - INFO - Running initial backup...
+2025-02-05 17:41:08,176 - INFO - Starting backup process...
+2025-02-05 17:41:08,343 - INFO - Backup created successfully: backups//backup_20250205_174108.sql.gz
+2025-02-05 17:41:08,375 - INFO - Database connection established
+2025-02-05 17:41:08,376 - ERROR - Failed to log backup: 1932 (42S02): Table 'example_db.backup_logs' doesn't exist in engine
+2025-02-05 17:41:08,376 - INFO - Database connection closed
+2025-02-05 17:41:08,377 - INFO - Scheduled next backup in 24 hours
+2025-02-05 17:41:08,377 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 17:41:08,377 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 17:42:09,388 - INFO - === Backup System Stopped ===
+2025-02-05 17:43:58,594 - INFO - === Backup System Started ===
+2025-02-05 17:43:58,594 - INFO - Backup interval set to: 24h
+2025-02-05 17:43:58,595 - INFO - Backup directory: backups/
+2025-02-05 17:43:58,595 - INFO - Retention period: 7 days
+2025-02-05 17:43:58,595 - INFO - Running initial backup...
+2025-02-05 17:43:58,596 - INFO - Starting backup process...
+2025-02-05 17:43:58,722 - INFO - Backup created successfully: backups//backup_20250205_174358.sql.gz
+2025-02-05 17:43:58,757 - INFO - Database connection established
+2025-02-05 17:43:58,758 - ERROR - Failed to log backup: 1932 (42S02): Table 'example_db.backup_logs' doesn't exist in engine
+2025-02-05 17:43:58,758 - INFO - Database connection closed
+2025-02-05 17:43:58,759 - INFO - Scheduled next backup in 24 hours
+2025-02-05 17:43:58,759 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 17:43:58,759 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 17:51:22,276 - INFO - === Backup System Stopped ===
+2025-02-05 17:51:38,468 - INFO - === Backup System Started ===
+2025-02-05 17:51:38,469 - INFO - Backup interval set to: 24h
+2025-02-05 17:51:38,469 - INFO - Backup directory: backups/
+2025-02-05 17:51:38,469 - INFO - Retention period: 7 days
+2025-02-05 17:51:38,469 - INFO - Running initial backup...
+2025-02-05 17:51:38,470 - INFO - Starting backup process...
+2025-02-05 17:51:38,610 - INFO - Backup created successfully: backups//backup_20250205_175138.sql.gz
+2025-02-05 17:51:38,646 - INFO - Database connection established
+2025-02-05 17:51:38,647 - ERROR - Failed to log backup: 1932 (42S02): Table 'example_db.backup_logs' doesn't exist in engine
+2025-02-05 17:51:38,647 - INFO - Database connection closed
+2025-02-05 17:51:38,647 - INFO - Scheduled next backup in 24 hours
+2025-02-05 17:51:38,648 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 17:51:38,648 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 17:52:34,718 - INFO - === Backup System Stopped ===
+2025-02-05 17:56:29,015 - INFO - === Backup System Started ===
+2025-02-05 17:56:29,015 - INFO - Backup interval set to: 24h
+2025-02-05 17:56:29,015 - INFO - Backup directory: backups/
+2025-02-05 17:56:29,015 - INFO - Retention period: 7 days
+2025-02-05 17:56:29,016 - INFO - Running initial backup...
+2025-02-05 17:56:29,016 - INFO - Starting backup process...
+2025-02-05 17:56:29,146 - INFO - Backup created successfully: backups//backup_20250205_175629.sql.gz
+2025-02-05 17:56:29,184 - INFO - Database connection established
+2025-02-05 17:56:29,186 - INFO - Database connection closed
+2025-02-05 17:56:29,186 - INFO - Scheduled next backup in 24 hours
+2025-02-05 17:56:29,187 - INFO - Scheduled daily cleanup at midnight
+2025-02-05 17:56:29,187 - INFO - System is running. Press Ctrl+C to stop.
+2025-02-05 17:58:40,971 - INFO - === Backup System Stopped ===
